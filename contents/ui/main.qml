@@ -45,7 +45,7 @@ MouseArea {
     Layout.maximumHeight: root.vertical ? Math.floor(width / aspectRatio) : Infinity
 
     Plasmoid.preferredRepresentation: Plasmoid.fullRepresentation
-    Plasmoid.status: pagerModel.shouldShowPager ? PlasmaCore.Types.ActiveStatus : PlasmaCore.Types.HiddenStatus
+    Plasmoid.status: PlasmaCore.Types.ActiveStatus
 
     Layout.fillWidth: root.vertical 
     Layout.fillHeight: !root.vertical 
