@@ -106,7 +106,7 @@ MouseArea {
         }
     }
 
-    onWheel: {
+    /* onWheel: {
         // Magic number 120 for common "one click, see:
         // https://doc.qt.io/qt-5/qml-qtquick-wheelevent.html#angleDelta-prop
         wheelDelta += wheel.angleDelta.y || wheel.angleDelta.x;
@@ -138,7 +138,7 @@ MouseArea {
 
             increment += (increment < 0) ? 1 : -1;
         }
-    }
+    } */
 
     PagerModel {
         id: pagerModel
