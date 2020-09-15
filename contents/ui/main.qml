@@ -29,7 +29,7 @@ import org.kde.plasma.private.pager 2.0
 MouseArea {
     id: root
 
-    property bool isActivityPager: (plasmoid.pluginName === "natetheadequate.pager-modified")
+    property bool isActivityPager: false
     property bool vertical: (plasmoid.formFactor === PlasmaCore.Types.Vertical)
     property var activityDataSource: null
 
